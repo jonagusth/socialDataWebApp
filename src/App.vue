@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SocialDataMain msg="This is a message sent to Social Data Main"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SocialDataMain from './components/SocialDataMain.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SocialDataMain,
   }
 }
 </script>
