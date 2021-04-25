@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "Social-Data",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
