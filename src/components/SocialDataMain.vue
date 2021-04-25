@@ -1,17 +1,14 @@
 <template>
-    <Banner/>
-
-    <div id="app">
-        <img src="../assets/jon.jpg">
+    <div id = "everything">
+        <Banner/>
+        <Content/>
     </div>
-  <div class="socialData">
-    <h1>{{ msg }}</h1>
-  </div>
 </template>
 
 <script>
 
 import Banner from './Banner'
+import Content from './Content.vue'
 
 
 export default {
@@ -19,6 +16,7 @@ export default {
   name: 'SocialDataMain',
   components: {
     Banner,
+    Content,
   },
   props: {
     msg: String
@@ -28,8 +26,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+#everything {
+    border: solid 1px red;
+    background: pink;
+    height: 100%;
+    width: 100%;
 }
 ul {
   list-style-type: none;
