@@ -27,8 +27,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #everything {
-    border: solid 1px red;
-    background: pink;
     height: 100%;
     width: 100%;
 }

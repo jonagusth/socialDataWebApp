@@ -1,9 +1,9 @@
 <template>
   <div id="menu">
     <!-- <p>this is a meny</p> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Social Data</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -15,25 +15,19 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Data 1</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+                        <li class="nav-item">
+              <a class="nav-link" href="#">Data 2</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
+                        <li class="nav-item">
+              <a class="nav-link" href="#">Data 3</a>
             </li>
           </ul>
         </div>
@@ -50,10 +44,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-#menu {
-  /* background-color: blue; */
-  border-style: solid;
+#navbar {
+  background-color: blue;
+  /*border-style: solid;
   height: 50px;
-  width: 100%;
+  width: 100%;*/
 }
 </style>

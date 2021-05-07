@@ -22,9 +22,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #content {
-    background-color: orange;
-    border-style: solid;
-    height: 60%;
+    background-color: rgb(235, 230, 226);
+    height: 1000px;
     width: 100%;
 }
 </style>

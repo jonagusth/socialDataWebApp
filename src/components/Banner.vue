@@ -1,7 +1,8 @@
 <template>
   <div id="myHeader">
-    <p>WOW such an amazing header</p>
-    <Menu/>
+    <div id="menu">
+      <Menu/>
+    </div>
   </div>
 </template>
 
@@ -20,10 +21,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #myHeader {
-    color: #42b983;
-    background-color: bisque;
-    border-style: solid;
-    height: 150px;
-    width: 100%;
+  color: #000000;
+  background-color: rgb(27, 150, 138);
+  height: 60px;
+  width: 100%;
+  position: relative;
 }
 </style>
