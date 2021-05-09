@@ -18,16 +18,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="about">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Data 1</a>
+              <a class="nav-link" href="first">Data 1</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="#">Data 2</a>
+              <a class="nav-link" href="second">Data 2</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="#">Data 3</a>
+              <a class="nav-link" href="third">Data 3</a>
             </li>
           </ul>
         </div>

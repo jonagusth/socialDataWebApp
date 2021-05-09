@@ -1,14 +1,12 @@
 <template>
     <div id = "everything">
         <Banner/>
-        <Content/>
     </div>
 </template>
 
 <script>
 
 import Banner from './Banner'
-import Content from './Content.vue'
 
 
 export default {
@@ -16,7 +14,6 @@ export default {
   name: 'SocialDataMain',
   components: {
     Banner,
-    Content,
   },
   props: {
     msg: String

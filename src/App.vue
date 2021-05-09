@@ -1,17 +1,18 @@
 <template>
-  <SocialDataMain msg="This is a message sent to Social Data Main"/>
+  <div id="nav">
+      <banner/>
+      <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import SocialDataMain from './components/SocialDataMain.vue'
+import Banner from './components/Banner.vue'
 
 
 
 export default {
+  components: { Banner },
   name: 'App',
-  components: {
-    SocialDataMain,
-  }
 }
 </script>
 
