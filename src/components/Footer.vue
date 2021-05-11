@@ -20,7 +20,7 @@ import router from "../router";
 
 export default {
   name: "Footer",
-  methods: {
+    methods: {
     greet: function () {
       if (this.$route.name == "first" || this.$route.name == "home") {
         router.push("second");

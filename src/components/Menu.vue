@@ -18,16 +18,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="about">About us</a>
+              <a class="nav-link" href="about" v-bind:class="{ active: isActive('about') }">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="first">Data 1</a>
+              <a class="nav-link" href="first" v-bind:class="{ active: isActive('first') }">Data 1</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="second">Data 2</a>
+              <a class="nav-link" href="second" v-bind:class="{ active: isActive('second') }">Data 2</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="third">Data 3</a>
+              <a class="nav-link" href="third" v-bind:class="{ active: isActive('third') }">Data 3</a>
             </li>
           </ul>
         </div>
@@ -37,8 +37,19 @@
 </template>
 
 <script>
+// import router from "../router";
 export default {
   name: "Menu",
+  methods: {
+    isActive: function(route) {
+      if (this.$route.name == route){
+        return true
+      }
+      else {
+        return false
+      }
+    }
+  }
 };
 </script>
 
