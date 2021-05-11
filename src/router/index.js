@@ -30,6 +30,11 @@ const routes = [
     name: "third",
     component: ThirdPage,
   },
+  { 
+    path: '/:catchAll(.*)', 
+    component: FirstPage,
+    name: 'NotFound'
+  },
 ];
 
 const router = createRouter({

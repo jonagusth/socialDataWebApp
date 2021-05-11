@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && gh-pages -d dist"
+    "copy": "cpy \"dist/index.html\" dist --rename=\"404.html\"",
+    "deploy": "npm run build && npm run copy && gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
