@@ -7,33 +7,34 @@ import ThirdPage from "../components/ThirdPage.vue";
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: FirstPage,
   },
   {
     path: "/about",
-    name: "About",
+    name: "about",
     component: About,
   },
   {
     path: "/first",
-    name: "FirstPake",
+    name: "first",
     component: FirstPage,
   },
   {
     path: "/second",
-    name: "SecondPage",
+    name: "second",
     component: SecondPage,
   },
   {
     path: "/third",
-    name: "ThirdPage",
+    name: "third",
     component: ThirdPage,
   },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
+  mode : 'hash',
   routes,
 });
 
