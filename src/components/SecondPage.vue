@@ -1,28 +1,72 @@
 <template>
   <div id="second">
-    <p>
-        Second Page
-    </p>
-    <p>
-        This will include whatever we want to have on the second page!
-    </p>
+    <p>Second Page</p>
+    <p>This will include whatever we want to have on the second page!</p>
+    <div class="row">
+      <div class="col-6">
+        Description about all the graphs regarding histograms in each
+        neighborhood
+      </div>
+      <div class="col-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
   </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/Neighborhoods/AmagerØst.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/AmagerVest.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Bispebjerg.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Brønshøj.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Valby.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Vanløse.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Vesterbro.png" class="d-block w-100" >
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+  </div>
+  </div>
+
 </template>
 
 <script>
-
-
-
 export default {
-  name: 'SecondPage'
-}
+  name: "SecondPage",
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #second {
-    background-color: rgb(235, 230, 226);
-    height: 700px;
-    width: 100%;
+  background-color: rgb(235, 230, 226);
+  height: 700px;
+  width: 100%;
 }
 </style>
