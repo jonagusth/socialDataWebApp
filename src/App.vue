@@ -1,21 +1,21 @@
 <template>
   <div id="nav">
-      <banner/>
+    <div class="layout">
+      <banner />
       <router-view></router-view>
-      <Footer/>
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import Banner from './components/Banner.vue'
-import Footer from './components/Footer.vue'
-
-
+import Banner from "./components/Banner.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: { Banner, Footer },
-  name: 'App',
-}
+  name: "App",
+};
 </script>
 
 <style>
@@ -25,5 +25,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>

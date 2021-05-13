@@ -22,7 +22,7 @@ export default {
 <style scoped>
 #third {
     background-color: rgb(235, 230, 226);
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
 }
 </style>

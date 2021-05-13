@@ -17,9 +17,16 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
+      <img src="../assets/Neighborhoods/Copenhagen.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item ">
       <img src="../assets/Neighborhoods/AmagerØst.png" class="d-block w-100">
     </div>
     <div class="carousel-item">
@@ -32,6 +39,12 @@
       <img src="../assets/Neighborhoods/Brønshøj.png" class="d-block w-100" >
     </div>
     <div class="carousel-item">
+      <img src="../assets/Neighborhoods/CityCentre.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Nørrebro.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
       <img src="../assets/Neighborhoods/Valby.png" class="d-block w-100" >
     </div>
     <div class="carousel-item">
@@ -39,6 +52,9 @@
     </div>
     <div class="carousel-item">
       <img src="../assets/Neighborhoods/Vesterbro.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/Neighborhoods/Østerbro.png" class="d-block w-100" >
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -66,7 +82,7 @@ export default {
 <style scoped>
 #second {
   background-color: rgb(235, 230, 226);
-  height: 700px;
+  /* height: 700px; */
   width: 100%;
 }
 </style>

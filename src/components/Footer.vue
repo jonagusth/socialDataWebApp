@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <div id="footerButton">
+    <div id="footerButton" class="p-3">
       <div v-if="$route.name == 'third'">
         <button type="button" class="btn btn-light" v-on:click="greet">
           Go to first page
@@ -39,14 +39,17 @@ export default {
 #footer {
   color: #000000;
   background-color: rgb(140, 196, 190);
-  height: 60px;
-  width: 100%;
-  position: relative;
+  /* height: 60px; */
+  width: 100%; 
+  /* position: relative; */
 }
 
 #footerButton {
-  position: absolute;
+  /* position: absolute;
   top: 20%;
-  left: 90%;
+  left: 90%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 </style>
