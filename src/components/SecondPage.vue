@@ -4,20 +4,19 @@
       <div class="col-md-12">
         <h3>Car ownership type by district</h3>
       </div>
-      <div class="col-md-12">
-        <p class="text-start p-3">
-          It can now be confirmed that the amount of electric and hybrid cars in
-          Copenhagen has been rapidly increasing in the last 10 years or so but
-          how are these cars distributed by areas? How do salaries and locations
-          affect electric and hybrid car ownership?
-        </p>
-      </div>
+
     </div>
     <div class="row align-items-center">
       <div class="col-md-4">
         <img src="../assets/CopenhagenMap.gif" />
       </div>
       <div class="col-md-8">
+          <p class="text-start p-3">
+          It can now be confirmed that the amount of electric and hybrid cars in
+          Copenhagen has been rapidly increasing in the last 10 years or so but
+          how are these cars distributed by areas? How do salaries and locations
+          affect electric and hybrid car ownership?
+        </p>
         <p class="text-start p-3">
           To be able to compare car data between neighborhoods, we analyze the
           number of cars per 100000 people in each neighborhood. First we

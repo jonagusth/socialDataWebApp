@@ -23,11 +23,11 @@ export default {
     methods: {
     greet: function () {
       if (this.$route.name == "first" || this.$route.name == "home") {
-        router.push("second");
+        router.push("second").then(() => window.scrollTo(0, 0));
       } else if (this.$route.name == "second") {
-        router.push("third");
+        router.push("third").then(() => window.scrollTo(0, 0));
       } else if (this.$route.name == "third") {
-        router.push("first");
+        router.push("first").then(() => window.scrollTo(0, 0));
       }
     },
   },

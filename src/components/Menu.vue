@@ -3,7 +3,7 @@
     <!-- <p>this is a meny</p> -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Social Data</a>
+        <a class="navbar-brand" href="first">Social Data</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -21,13 +21,13 @@
               <a class="nav-link" href="about" v-bind:class="{ active: isActive('about') }">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="first" v-bind:class="{ active: isActive('first') }">Data 1</a>
+              <a class="nav-link" href="first" v-bind:class="{ active: isActive('first') }">Cars in Copenhagen</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="second" v-bind:class="{ active: isActive('second') }">Data 2</a>
+              <a class="nav-link" href="second" v-bind:class="{ active: isActive('second') }">Districts</a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="third" v-bind:class="{ active: isActive('third') }">Data 3</a>
+              <a class="nav-link" href="third" v-bind:class="{ active: isActive('third') }">Green trends</a>
             </li>
           </ul>
         </div>
