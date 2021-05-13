@@ -24,17 +24,17 @@
       </div>
       <div class="col-md-6">
         <ul class="list-group-flush p-3">
-          <li class="list-group-item">
+          <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Car ownership by type over time in Copenhagen
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Car ownership type by neighborhood
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Trends of electric and hybrid cars, popularly knows as
             <strong>'green cars'</strong>
           </li>
-          <li class="list-group-item ">
+          <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             The future of car ownership in Copenhagen
           </li>
         </ul>
@@ -199,8 +199,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #first {
-  /* background-color: rgb(235, 230, 226); */
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(235, 230, 226);
+  /* background-color: rgb(255, 255, 255); */
   /* height: 700px; */
   width: 100%;
 }
