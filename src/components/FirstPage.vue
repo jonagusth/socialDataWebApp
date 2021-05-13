@@ -1,8 +1,12 @@
 <template>
   <div id="first">
-    <div class="row">
-      <div class="col-12">
+    <div class="row align-items-center">
+      <div class="col-md-12">
         <h3>Car ownership over time for Copenhagen Metropolitan Area</h3>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
         <p class="text-start p-3">
           In this project we look and analize car ownership for Copenhagen
           metropolitan area in the period of time between 2006 and 2020. We
@@ -18,11 +22,28 @@
           singularities. Our visualization focuses on:
         </p>
       </div>
+      <div class="col-md-6">
+        <ul class="list-group-flush p-3">
+          <li class="list-group-item">
+            Car ownership by type over time in Copenhagen
+          </li>
+          <li class="list-group-item">
+            Car ownership type by neighborhood
+          </li>
+          <li class="list-group-item">
+            Trends of electric and hybrid cars, popularly knows as
+            <strong>'green cars'</strong>
+          </li>
+          <li class="list-group-item ">
+            The future of car ownership in Copenhagen
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-8">
         <ul class="list-group-flush">
-          <li class="list-group-item border-0">
+          <li class="list-group-item border-0 text-start">
             Car ownership by type over time in Copenhagen
           </li>
           <li class="list-group-item border-0">
@@ -40,8 +61,8 @@
       <div class="col-md-4">
         <img src="../assets/CopenhagenMap.gif" class="img-fluid" />
       </div>
-    </div>
-    <div class="row">
+    </div> -->
+    <div class="row align-items-center">
       <div class="col-md-6">
         <img src="../assets/CopenBar.png" class="img-fluid" />
       </div>
@@ -66,7 +87,7 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6">
         <p class="text-start p-3">
           The figure shows a steady growth of the population over time. When
@@ -85,7 +106,7 @@
         <img src="../assets/PopulationCopen.png" class="img-fluid" />
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6">
         <img src="../assets/PercVariation.png" class="img-fluid" />
       </div>
@@ -100,7 +121,7 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6">
         <h4>Car ownership type over type stacked barchart</h4>
         <p class="text-start p-3">
@@ -121,7 +142,7 @@
         <img src="../assets/CarsTypeCopen.png" class="img-fluid" />
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-6">
         <img src="../assets/CarTypeLogCop.png" class="img-fluid" />
       </div>
@@ -142,22 +163,21 @@
           period but there is a clear change in 2019, exactly after the Danish
           parliament political proposal of reducing gasoline and diesel cars in
           the whole country. Both hybrid and electric cars seem to have
-          exponential growth after 2016. 
+          exponential growth after 2016.
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-12">
         <p class="text-start p-3">
-          There have been a lot of political
-          changes in Denmark in the last few years regarding tax and car
-          production. Danish regulations of taxing cars has drastically changed
-          since 2013. Registration tax extemptions of 105 - 180% were introduced
-          for electric and hybrid cars, and also green owner tax exemtions. This
-          is changing from 2021 where the tax on green cars is slowly in
-          increasing. On the other hand, EV battery costs have been decreasing
-          worldwide since 2015.
-          <br>
+          There have been a lot of political changes in Denmark in the last few
+          years regarding tax and car production. Danish regulations of taxing
+          cars has drastically changed since 2013. Registration tax extemptions
+          of 105 - 180% were introduced for electric and hybrid cars, and also
+          green owner tax exemtions. This is changing from 2021 where the tax on
+          green cars is slowly in increasing. On the other hand, EV battery
+          costs have been decreasing worldwide since 2015.
+          <br />
           There have also been dramatic decreases of hardware costs for standard
           charging stations and car battery lifetimes have also improbed.
           Another change important to note is that there has been an increase in
