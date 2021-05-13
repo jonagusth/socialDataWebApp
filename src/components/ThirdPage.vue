@@ -61,6 +61,27 @@
         <img src="../assets/GreenMap.gif" class="img-fluid">
       </div>
     </div>
+    <div class="row align-items-center">
+      <div class="col-md-12">
+        The adoption of Electric and Hybrid cars is still in infancy in the Copenhagen municipality. 
+        In 2013 there was a big change in trend of electric cars with a rapid growth in the number 
+        of new cars per year. For hybrid cars that change was in 2018. Registrations of green cars 
+        are increasing exponentially. This aligns with Denmark's tax changes, rewarding users of electric 
+        and hybrid cars and the cultural shift towards sustainability and living an environmentally 
+        friendly lifestyle. However the green cars are but they are still a drop in the ocean 
+        compared to benzine and diesel cars. The suburb areas have most cars in total: Valby, Vanløse, 
+        Brønshøj-Husum while Vesterbro and Østerbro have the least amount of cars. The highest salaries 
+        are in the City centre, Osterbro, Amager Vest, Vestebro and Vanløse. most of the green cars are 
+        in the City centre, Østerbro and Amager Vest. All of these are high salary districts with only an 
+        average amount of cars. This can be explained by the 'Tesla affect', the appearance of luxurious 
+        eclectic cars that are fast and elegant and much more expensive than other cars. Recently more 
+        affordable hybrid car models have been introduced, following decreased harware and EV battery costs 
+        and longer car battery lifetimes. This might lead to a drastic increase in registrations of green 
+        cars in all districts. It's hard to predict what the future holds but Denmark is heading in an even 
+        stronger direction towards green cars so it's safe to say that the presence of green cars in Copenhagen 
+        will continue to increase drastically in the coming years.
+      </div>
+    </div>
   </div>
 </template>
 
