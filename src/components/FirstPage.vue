@@ -20,7 +20,8 @@
           . The raw data includes tables on new private cars registered every
           year in every district in Copenhagen. The data was plotted
           using different visualization tools that include bar plots, scatter
-          plots and maps. The goal is to analyze and look for trends and
+          plots and maps. The data and jupyter notebook used to perform these visualizations can be found 
+          <a href="https://github.com/jonagusth/SoicalDataAssets">here</a> The goal is to analyze and look for trends and
           singularities. The visualization focuses on:
         </p>
       </div>
@@ -31,6 +32,9 @@
           </li>
           <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Car ownership by type and district
+          </li>
+          <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
+            Car ownership by district and annual saleries
           </li>
           <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Trends of electric and hybrid cars, popularly knows as
