@@ -58,7 +58,7 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="../assets/GreenMap.gif"  class="img-fluid border border-2 border-dark">
+        <img src="../assets/GreenMapDistrict.gif"  class="img-fluid border border-2 border-dark">
       </div>
     </div>
     <div class="row align-items-center p-3">

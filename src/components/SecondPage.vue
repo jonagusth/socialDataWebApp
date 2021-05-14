@@ -8,7 +8,7 @@
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-4">
-        <img src="../assets/CopenhagenMap.gif" class="img-fluid border border-2 border-dark" />
+        <img src="../assets/CopenhagenMapDist.gif" class="img-fluid border border-2 border-dark" />
       </div>
       <div class="col-md-8">
         <p class="text-start p-3">
@@ -212,7 +212,7 @@
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <img src="../assets/AnnualSalary.png" class="img-fluid"/>
+        <img src="../assets/Neighborhoods/AnnualSalaryDist.png" class="img-fluid"/>
       </div>
       <div class="col-md-6">
         <!-- <h4>Annual salaries by district</h4> -->
@@ -250,7 +250,7 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="../assets/CarNeighborhood.png" class="img-fluid"/>
+        <img src="../assets/Neighborhoods/CarDistrict.png" class="img-fluid"/>
       </div>
     </div>
     <div class="row align-items-center p-3">
