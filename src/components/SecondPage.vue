@@ -1,13 +1,14 @@
 <template>
   <div id="second">
     <div class="row align-items-center">
-      <div class="col-md-12">
-        <h3>Car ownership type by district</h3>
+      <div class="col-md-12 p-3">
+        <!-- <h3>Car ownership type by district</h3> -->
+        <h3>Car ownership by district</h3>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-4">
-        <img src="../assets/CopenhagenMap.gif" />
+        <img src="../assets/CopenhagenMapDist.gif" class="img-fluid border border-2 border-dark" />
       </div>
       <div class="col-md-8">
         <p class="text-start p-3">
@@ -22,7 +23,7 @@
       </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
           The graph to the right displays the car trends for four types of cars by district.
@@ -198,9 +199,9 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <img src="../assets/AnnualSalary.png" class="img-fluid"/>
+        <img src="../assets/Neighborhoods/AnnualSalaryDist.png" class="img-fluid"/>
       </div>
       <div class="col-md-6">
         <p class="text-start p-3">
@@ -212,7 +213,7 @@
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
           The scatter plot to the right shows the average number of cars registered per 100.000 people 
@@ -231,7 +232,7 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="../assets/CarNeighborhood.png" class="img-fluid"/>
+        <img src="../assets/Neighborhoods/CarDistrict.png" class="img-fluid"/>
       </div>
     </div>
     <div class="row align-items-center">
@@ -320,6 +321,7 @@ export default {
   background-color: rgb(235, 230, 226);
   /* height: 700px; */
   width: 100%;
+  padding-top: 30px;
 }
 .li .borderless {
   border-top: 0 none;
