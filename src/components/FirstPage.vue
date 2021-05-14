@@ -1,11 +1,11 @@
 <template>
   <div id="first">
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-12">
         <h3>Car ownership over time for Copenhagen Metropolitan Area</h3>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
           This website is developed for the course 02806 Social Data Analysis 
@@ -42,29 +42,7 @@
         </ul>
       </div>
     </div>
-    <!-- <div class="row">
-      <div class="col-md-8">
-        <ul class="list-group-flush">
-          <li class="list-group-item border-0 text-start">
-            Car ownership by type over time in Copenhagen
-          </li>
-          <li class="list-group-item border-0">
-            Car ownership type by neighborhood
-          </li>
-          <li class="list-group-item border-0">
-            Trends of electric and hybrid cars, popularly knows as
-            <strong>'green cars'</strong>
-          </li>
-          <li class="list-group-item border-0">
-            The future of car ownership in Copenhagen
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <img src="../assets/CopenhagenMap.gif" class="img-fluid" />
-      </div>
-    </div> -->
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <img src="../assets/CopenBar.png" class="img-fluid" />
       </div>
@@ -82,7 +60,7 @@
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
           The figure on the right shows the population in Copenhagen during the 
@@ -100,7 +78,7 @@
         <img src="../assets/PopulationCopen.png" class="img-fluid" />
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <img src="../assets/CarsTypeCopen.png" class="img-fluid" />
       </div>
@@ -116,7 +94,7 @@
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
         <div class="col-md-6">
             <p class="text-start p-3">
                 Looking at percentage changes from year to year is useful for spotting big changes.
@@ -128,7 +106,7 @@
             <img src="../assets/PercVariation.png" class="img-fluid" />
         </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <img src="../assets/CarTypeLogCop.png" class="img-fluid" />
       </div>
@@ -176,6 +154,7 @@ export default {
   /* background-color: rgb(255, 255, 255); */
   /* height: 700px; */
   width: 100%;
+  padding-top: 30px;
 }
 .li .borderless {
   border-top: 0 none;

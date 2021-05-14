@@ -1,13 +1,14 @@
 <template>
   <div id="second">
     <div class="row align-items-center">
-      <div class="col-md-12">
-        <h3>Car ownership type by district</h3>
+      <div class="col-md-12 p-3">
+        <!-- <h3>Car ownership type by district</h3> -->
+        <h3>Car ownership by district</h3>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-4">
-        <img src="../assets/CopenhagenMap.gif" />
+        <img src="../assets/CopenhagenMap.gif" class="img-fluid border border-2 border-dark" />
       </div>
       <div class="col-md-8">
         <p class="text-start p-3">
@@ -33,9 +34,9 @@
       </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <h4>Car ownership by district</h4>
+        <!-- <h4>Car ownership by district</h4> -->
         <p class="text-start p-3">
           Here the car trends for the four types of cars by neighbourhoods can
           be seen on a logarithmic scale. Electric cars started appearing in
@@ -209,12 +210,12 @@
         </div>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <img src="../assets/AnnualSalary.png" class="img-fluid"/>
       </div>
       <div class="col-md-6">
-        <h4>Annual salaries by district</h4>
+        <!-- <h4>Annual salaries by district</h4> -->
         <p class="text-start p-3">
           The following plot shows the average annual salaries (pre-tax) by
           neighborhood over time. This data is given for people who are eligible
@@ -225,9 +226,9 @@
         </p>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <h4>Car ownership vs salary by district</h4>
+        <!-- <h4>Car ownership vs salary by district</h4> -->
         <p class="text-start p-3">
           The following scatter plot shows the average number of cars registered
           per 100000 people by neighborhood over the years versus the average
@@ -252,7 +253,7 @@
         <img src="../assets/CarNeighborhood.png" class="img-fluid"/>
       </div>
     </div>
-    <div class="row align-items-center">
+    <div class="row align-items-center p-3">
       <div class="col-md-6">
         <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" >
           <div class="carousel-indicators">
@@ -310,12 +311,12 @@
         </div>
       </div>
       <div class="col-md-6">
-        <h4>
+        <!-- <h4>
           Regression lines and Pearsons correlation for car ownership vs salary
           by neighborhood
-        </h4>
+        </h4> -->
         <p class="text-start p-3">
-          The following scatter plot shows the average number of cars registered
+          The following scatter plots shows the average number of cars registered
           per 100000 people over the years versus the average annual salary for
           every neighborhood. A linear regresion line has been added together
           with the Pearsons Correlation Coefficient that looks for linear
@@ -327,7 +328,6 @@
         </p>
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -344,6 +344,7 @@ export default {
   background-color: rgb(235, 230, 226);
   /* height: 700px; */
   width: 100%;
+  padding-top: 30px;
 }
 .li .borderless {
   border-top: 0 none;
