@@ -4,14 +4,13 @@
       <div class="col-md-12">
         <h3>Car ownership type by district</h3>
       </div>
-
     </div>
     <div class="row align-items-center">
       <div class="col-md-4">
         <img src="../assets/CopenhagenMap.gif" />
       </div>
       <div class="col-md-8">
-          <p class="text-start p-3">
+        <p class="text-start p-3">
           It can now be confirmed that the amount of electric and hybrid cars in
           Copenhagen has been rapidly increasing in the last 10 years or so but
           how are these cars distributed by areas? How do salaries and locations
@@ -36,21 +35,21 @@
 
     <div class="row align-items-center">
       <div class="col-md-6">
-          <h4>Car ownership by district</h4>
-          <p class="text-start p-3">
-            Here the car trends for the four types of cars by neighbourhoods can be
-            seen on a logarithmic scale. Electric cars started appearing in
-            2008/2009 in the City Center and Amager vest. Nørrebro and Østerbro
-            joined the list in 2013 and Vesterbro/Kongens Enghavein 2014. Electric
-            then started appearing in the other neighbourhoods in 2015.\n\nHybrid
-            cars started appearing in 2017 in many of the neigbourhoods. However
-            they didn't start appearing in Bispebjerg and Vanløse until 2019. We saw
-            that the total number of cars in Vanløse was one of the highest per
-            person, but this chart shows the opposite for the specific case of
-            hybrid cars. We suspect that this difference might be related to
-            salaries, so let's have a look at annual salaries per person by
-            neighborhood."
-          </p>
+        <h4>Car ownership by district</h4>
+        <p class="text-start p-3">
+          Here the car trends for the four types of cars by neighbourhoods can
+          be seen on a logarithmic scale. Electric cars started appearing in
+          2008/2009 in the City Center and Amager vest. Nørrebro and Østerbro
+          joined the list in 2013 and Vesterbro/Kongens Enghavein 2014. Electric
+          then started appearing in the other neighbourhoods in 2015.\n\nHybrid
+          cars started appearing in 2017 in many of the neigbourhoods. However
+          they didn't start appearing in Bispebjerg and Vanløse until 2019. We
+          saw that the total number of cars in Vanløse was one of the highest
+          per person, but this chart shows the opposite for the specific case of
+          hybrid cars. We suspect that this difference might be related to
+          salaries, so let's have a look at annual salaries per person by
+          neighborhood."
+        </p>
       </div>
       <div class="col-md-6">
         <div
@@ -59,14 +58,7 @@
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button
               type="button"
               data-bs-target="#carouselExampleIndicators"
@@ -219,6 +211,9 @@
     </div>
     <div class="row align-items-center">
       <div class="col-md-6">
+        <img src="../assets/AnnualSalary.png" class="img-fluid"/>
+      </div>
+      <div class="col-md-6">
         <h4>Annual salaries by district</h4>
         <p class="text-start p-3">
           The following plot shows the average annual salaries (pre-tax) by
@@ -229,14 +224,8 @@
           the City Centre and Nørrebro.
         </p>
       </div>
-      <div class="col-md-4">
-        <img src="../assets/AnnualSalary.png" />
-      </div>
     </div>
     <div class="row align-items-center">
-      <div class="col-md-6">
-        <img src="../assets/CarNeighborhood.png" />
-      </div>
       <div class="col-md-6">
         <h4>Car ownership vs salary by district</h4>
         <p class="text-start p-3">
@@ -259,163 +248,72 @@
           regresion lines for the same data.
         </p>
       </div>
+      <div class="col-md-6">
+        <img src="../assets/CarNeighborhood.png" class="img-fluid"/>
+      </div>
     </div>
     <div class="row align-items-center">
       <div class="col-md-6">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
+        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" >
           <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="5"
-              aria-label="Slide 6"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="6"
-              aria-label="Slide 7"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="7"
-              aria-label="Slide 8"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="8"
-              aria-label="Slide 9"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="9"
-              aria-label="Slide 10"
-            ></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="9" aria-label="Slide 10"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationAmagerØst.png"
-                class="d-block w-100"
-              />
+            <div class="carousel-item active">
+              <img src="../assets/PearsonLines/CorrelationAmagerØst.png" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationAmagerVest.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationAmagerVest.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationBispebjerg.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationBispebjerg.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationBrønshøj.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationBrønshøj.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationCityCentre.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationCityCentre.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationNørrebro.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationNørrebro.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationValby.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationValby.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationVanløse.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationVanløse.png" class="d-block w-100" />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationVesterbro.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationVesterbro.png" class="d-block w-100"  />
             </div>
             <div class="carousel-item">
-              <img
-                src="../assets/PearsonLines/CorrelationØsterbro.png"
-                class="d-block w-100"
-              />
+              <img src="../assets/PearsonLines/CorrelationØsterbro.png" class="d-block w-100" />
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
-
       <div class="col-md-6">
-        <h4>Regression lines and Pearsons correlation for car ownership vs salary by neighborhood</h4>
+        <h4>
+          Regression lines and Pearsons correlation for car ownership vs salary
+          by neighborhood
+        </h4>
         <p class="text-start p-3">
           The following scatter plot shows the average number of cars registered
           per 100000 people over the years versus the average annual salary for
@@ -429,6 +327,7 @@
         </p>
       </div>
     </div>
+    
   </div>
 </template>
 
