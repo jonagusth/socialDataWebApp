@@ -18,9 +18,12 @@
           and <a href="https://www.opendata.dk/">Open Data DK</a>
           . The raw data includes tables on new private cars registered every
           year in every district in Copenhagen. The data was plotted using
-          different visualization tools that include barplots, scatterplots
-          and maps. The goal is to analyze and look for trends and
-          singularities. The visualization focuses on:
+          different visualization tools that include barplots, scatterplots and
+          maps. The data and jupyter notebook used to perform these
+          visualizations can be found
+          <a href="https://github.com/jonagusth/SoicalDataAssets">here</a> The
+          goal is to analyze and look for trends and singularities. The
+          visualization focuses on:
         </p>
       </div>
       <div class="col-md-6">
@@ -36,6 +39,12 @@
             style="background-color: rgb(235, 230, 226); !important"
           >
             Car ownership by type and district
+          </li>
+          <li
+            class="list-group-item"
+            style="background-color: rgb(235, 230, 226); !important"
+          >
+            Car ownership by district and annual saleries
           </li>
           <li
             class="list-group-item"
@@ -146,16 +155,18 @@
       </div>
       <div class="col-md-6">
         <p class="text-start p-3">
-          Using a <strong>logarithmic scale</strong> allows us to see the trends by type of car
-          even though the amount of diesel and gasoline cars are way higher than
-          the amount of hybrid and electric cars. Gasoline car ownership had a
-          drop after the 2008 global crisis but began increasing again in 2013.
-          The Diesel cars have more or less a linear growth over the whole time
-          period but there is a clear change in 2019, exactly after the Danish
-          parliament political proposal of reducing gasoline and diesel cars in
-          the whole country. Both <strong>hybrid and electric cars seem to have
-          exponential growth after 2016</strong>.
-          <br /><br />
+          Using a <strong>logarithmic scale</strong> allows us to see the trends
+          by type of car even though the amount of diesel and gasoline cars are
+          way higher than the amount of hybrid and electric cars. Gasoline car
+          ownership had a drop after the 2008 global crisis but began increasing
+          again in 2013. The Diesel cars have more or less a linear growth over
+          the whole time period but there is a clear change in 2019, exactly
+          after the Danish parliament political proposal of reducing gasoline
+          and diesel cars in the whole country. Both
+          <strong
+            >hybrid and electric cars seem to have exponential growth after
+            2016</strong
+          >. <br /><br />
           There have been a lot of political changes in Denmark in the last few
           years regarding tax and car production. Danish regulations of taxing
           cars have drastically changed since 2013. Registration

@@ -25,11 +25,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+    background-color: rgb(235, 230, 226);
+
 }
 .layout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  min-height: 99vh;
 }
 </style>
