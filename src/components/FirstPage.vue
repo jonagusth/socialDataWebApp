@@ -19,7 +19,7 @@
           and <a href="https://www.opendata.dk/">Open Data DK</a>
           . The raw data includes tables on new private cars registered every
           year in every district in Copenhagen. The data was plotted
-          using different visualization tools that include histograms, scatter
+          using different visualization tools that include bar plots, scatter
           plots and maps. The goal is to analyze and look for trends and
           singularities. The visualization focuses on:
         </p>
@@ -34,7 +34,7 @@
           </li>
           <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             Trends of electric and hybrid cars, popularly knows as
-            <strong>'green cars'</strong>
+            <strong>green cars</strong>
           </li>
           <li class="list-group-item" style="background-color: rgb(235, 230, 226); !important">
             The future of car ownership in Copenhagen
@@ -150,8 +150,8 @@
            <strong>electric and hybrid cars</strong>, and also green owner tax exemptions. This is remarkable 
            considering that car taxes can be over 200% of the car price in Denmark. This is changing in 2021 where 
            the tax on green cars is increasing but still remains significantly 
-           lower than fosssil fuel cars. On the other hand, <strong>EV battery costs</strong> have been <strong>decreasing</strong> 
-           worldwide since 2015 There have also been <strong>dramatic decreases in hardware costs</strong> for standard
+           lower than fossil fuel cars. On the other hand, <strong>EV battery costs</strong> have been <strong>decreasing</strong> 
+           worldwide since 2015. There have also been <strong>dramatic decreases in hardware costs</strong> for standard
           charging stations and car battery lifetimes have also improved.
           Another change important to note is that there has been an <strong>increase in
           number of electric and hybrid car manufacturers</strong>, for example, Toyota
