@@ -2,24 +2,23 @@
   <div id="third">
     <div class="row align-items-center p-3">
       <div class="col-md-12">
-        <h3>Trends of electric and hybrid cars</h3>
+        <h3>Green car trends</h3>
       </div>
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <h5>Scatter plots and regression line for green cars</h5>
         <p class="text-start p-3">
-          Now we are going to shift the focus to look at the evolution of
-          electric and hybrid cars, popularly known as green cars.
+          Now that car trends have been analyzed by district and annual salaries
+          it is time to focus on electric and hybrid cars, popularly known as
+          green cars.
           <br />
-          The scatter plots show the total number of cars per year in Copenhagen
-          Metropolitan Area for hybrid and electric cars.
+          The scatter plots to the right show the total number of green cars per
+          year in Copenhagen.
           <br />
-          The scatter plot shows what it seems an exponential growth in both
-          types of car. The number of electric cars have been growing since
-          2013, whereas hybrid cars are growing faster since 2016. Lets have a
-          look now at the growth of this numbers by neighborhood every two
-          years.
+          There is a clear exponential growth in both types of cars. The number
+          of electric cars has been growing since 2013, whereas hybrid cars are
+          growing faster since 2016. Are these trends general in Copenhagen or
+          do the numbers vary depending on districts?
         </p>
       </div>
       <div class="col-md-6">
@@ -31,58 +30,63 @@
         <img src="../assets/Greencars2y.png" class="img-fluid" />
       </div>
       <div class="col-md-6">
-        <!-- <h4>
-          Evolution of the number of green cars per 100.000 people every two
-          years
-        </h4> -->
         <p class="text-start p-3">
           Earlier it was highlighted that there are more cars per person in the
-          suburbs, this is Vanløse, Brønshøj-Husum and Valby. However there are
-          clearly more green cars in the city center. This could well be because
-          of the 'Tesla effect', the appearance of luxurious electric cars that
-          are fast and elegant and much more expensive than other cars. Another
-          reason could be the higher accessibility of charging stations in the
-          city. It is clear that the amount of green cars is increasing
-          exponentially in all areas which is a good sign for the future.
+          suburbs, this is Vanløse, Brønshøj-Husum and Valby. However, there are
+          more green cars in the city center. This could well be because the
+          first electric cars were luxurious, fast, elegant and much more
+          expensive than other cars and cheaper electric cars have only recently
+          been introduced. Another reason could be the higher accessibility of
+          charging stations in the city.
         </p>
       </div>
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <!-- <h4>Maps for green cars per year by neiborhood</h4> -->
         <p class="text-start p-3">
-          This plot shows the evolution of car ownership by neighborhood in all
-          the neigborhoods. The fisrt maps show that there were almost no green
-          cars in the early years. Since 2015 we can see a gradual increase of
-          green cars in most neighborhoods, specially in the city centre.
+          The plot to the right shows the evolution of car ownership by district
+          in Copenhagen. The first maps show that there were almost no green
+          cars in the early years. Since 2015 we can see a gradual increase in
+          green cars in most districts, especially in the city center. The
+          amount of green cars is certainly increasing exponentially in all
+          areas which is a good sign for the future.
         </p>
       </div>
       <div class="col-md-6">
-        <img src="../assets/GreenMapDistrict.gif"  class="img-fluid border border-2 border-dark">
+        <img
+          src="../assets/GreenMapDistrict.gif"
+          class="img-fluid border border-2 border-dark"
+        />
       </div>
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-12">
+        <h4>Conclusions</h4>
         <p class="text-start p-3">
-          The adoption of Electric and Hybrid cars is still in infancy in the Copenhagen municipality. 
-        In 2013 there was a big change in trend of electric cars with a rapid growth in the number 
-        of new cars per year. For hybrid cars that change was in 2018. Registrations of green cars 
-        are increasing exponentially. This aligns with Denmark's tax changes, rewarding users of electric 
-        and hybrid cars and the cultural shift towards sustainability and living an environmentally 
-        friendly lifestyle. However the green cars are but they are still a drop in the ocean 
-        compared to benzine and diesel cars. The suburb areas have most cars in total: Valby, Vanløse, 
-        Brønshøj-Husum while Vesterbro and Østerbro have the least amount of cars. The highest salaries 
-        are in the City centre, Osterbro, Amager Vest, Vestebro and Vanløse. most of the green cars are 
-        in the City centre, Østerbro and Amager Vest. All of these are high salary districts with only an 
-        average amount of cars. This can be explained by the 'Tesla affect', the appearance of luxurious 
-        eclectic cars that are fast and elegant and much more expensive than other cars. Recently more 
-        affordable hybrid car models have been introduced, following decreased harware and EV battery costs 
-        and longer car battery lifetimes. This might lead to a drastic increase in registrations of green 
-        cars in all districts. It's hard to predict what the future holds but Denmark is heading in an even 
-        stronger direction towards green cars so it's safe to say that the presence of green cars in Copenhagen 
-        will continue to increase drastically in the coming years.
+          The adoption of Electric and Hybrid cars is still in infancy in the
+          Copenhagen municipality. In 2013 there was a big change in the trend
+          of electric cars with rapid growth in the number of new cars per year.
+          For hybrid cars that change was in 2018. Registrations of green cars
+          are increasing exponentially. This aligns with Denmark's tax changes,
+          rewarding users of electric and hybrid cars and the cultural shift
+          towards sustainability and living an environmentally friendly
+          lifestyle. However, green cars are still a drop in the ocean compared
+          to gasoline and diesel cars. The suburb areas have most cars in total:
+          Valby, Vanløse, Brønshøj-Husum while Vesterbro and Østerbro have the
+          least amount of cars. The highest salaries are in the City center,
+          Osterbro, Amager Vest, Vesterbro and Vanløse. Most of the green cars
+          are in the City center, Østerbro and Amager Vest. All of these are
+          high-salary districts with only an average amount of cars. This can be
+          explained by the appearance of luxurious eclectic cars that are fast
+          and elegant and much more expensive than other cars. Recently more
+          affordable hybrid car models have been introduced, following decreased
+          hardware and EV battery costs and longer car battery lifetimes. This
+          might lead to a drastic increase in registrations of green cars in all
+          districts. It's hard to predict what the future holds but Denmark is
+          heading in an even stronger direction towards green cars so it's safe
+          to say that the presence of green cars in Copenhagen will continue to
+          increase drastically in the coming years.
         </p>
-        
       </div>
     </div>
   </div>
