@@ -104,7 +104,7 @@
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-6">
-        <img src="../assets/CarsTypeCopen.png" class="img-fluid" />
+        <img src="../assets/stackedBar.png" class="img-fluid" />
       </div>
       <div class="col-md-6">
         <p class="text-start p-3">
