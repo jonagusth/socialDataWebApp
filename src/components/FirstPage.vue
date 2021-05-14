@@ -12,13 +12,13 @@
           and Visualization at Danmarks Tekniske Universitet. 
           The project describes car ownership for the Copenhagen
           metropolitan area in the period of time between 2006 and 2020. The data used is
-          loaded and filtered the data from
+          loaded from
           <a href="https://kk.statistikbank.dk/statbank5a/default.asp?w=1536"
             >København Statistikbank</a
           >
           and <a href="https://www.opendata.dk/">Open Data DK</a>
           . The raw data includes tables on new private cars registered every
-          year in every neighborhood in Copenhagen. The data was plotted
+          year in every district in Copenhagen. The data was plotted
           using different visualization tools that include histograms, scatter
           plots and maps. The goal is to analyze and look for trends and
           singularities. The visualization focuses on:
@@ -69,13 +69,13 @@
         <img src="../assets/CopenBar.png" class="img-fluid" />
       </div>
       <div class="col-md-6">
-        <h4>Car registration in Copenhagen between 2006-2020</h4>
+        <h4>Car registration in Copenhagen between 2006 - 2020</h4>
         <p class="text-start p-3">
           The topic of sustainability and living an environmentally friendly 
           lifestyle is constantly growing. Denmark is one of the frontrunners in
           implementing the United Nations Sustainable development goals and
           Copenhagen is a hub for innovation and the development of sustainable 
-          solutions. In recent years there has been a shift in car ownership. People are more and more switching from gasoline and diesel cars to more sustainable electric and hybrid cars. <br />
+          solutions. In recent years there has been a shift in car ownership. People are more and more switching from gasoline and diesel cars to more sustainable electric and hybrid cars.
           First, let's look at how car ownership in Copenhagen has been developing.
           <br /><br />
           The amount of registered cars has been growing since 2006. There are some years where the growth slows down, for instance, 2009 and 2010. That is most likely due to the world economic crisis. After 2013 the number of cars increases constantly. Is it because people living in Copenhagen are buying more cars than before or is there another explanation?
@@ -146,17 +146,16 @@
           <br /><br />
           There have been a lot of political changes in Denmark in the last few years 
           regarding tax and car production. Danish regulations of taxing cars have drastically 
-          changed since 2013. Registration tax exemptions of 105 - 180% were introduced for 
-          electric and hybrid cars, and also green owner tax exemptions. This is changing from 
-          2021 where the tax on green cars is slowly increasing. On the other hand, EV battery
-          costs have been decreasing worldwide since 2015
-          <br />
-          There have also been dramatic decreases in hardware costs for standard
+          changed since 2013. Registration <strong>exemptions of 105 - 180%</strong> were introduced for 
+           <strong>electric and hybrid cars</strong>, and also green owner tax exemptions. This is remarkable 
+           considering that car taxes can be over 200% of the car price in Denmark. This is changing in 2021 where 
+           the tax on green cars is increasing but still remains significantly 
+           lower than fosssil fuel cars. On the other hand, <strong>EV battery costs</strong> have been <strong>decreasing</strong> 
+           worldwide since 2015 There have also been <strong>dramatic decreases in hardware costs</strong> for standard
           charging stations and car battery lifetimes have also improved.
-          Another change important to note is that there has been an increase in
-          number of electric and hybrid car manufacturers, for example, Toyota
-          and Seat and more affordable electric and hybrid car models have also
-          been introduced.
+          Another change important to note is that there has been an <strong>increase in
+          number of electric and hybrid car manufacturers</strong>, for example, Toyota
+          and Seat and other affordable electric and hybrid car models.
         </p>
       </div>
     </div>
