@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-md-12 p-3">
         <!-- <h3>Car ownership type by district</h3> -->
-        <h3>Car ownership by district</h3>
+        <h3>Car ownership and salaries by district</h3>
       </div>
     </div>
     <div class="row align-items-center p-3">
@@ -22,11 +22,11 @@
           and hybrid car ownership?
           <br /><br />
           To be able to compare car data between districts, the number of cars
-          per 100.000 people was analyzed. The plot to the left shows the
-          evolution of car ownership by district in Copenhagen. The districts
+          per 100.000 people was analyzed. The plot to the left shows <strong>the
+          evolution of car ownership by district in Copenhagen</strong>. The districts
           include City Centre, Østerbro, Nørrebro, Vesterbro/Kongens Enhave,
           Valby, Vanløse, Brønshøj-Husum, Bispebjerg, Amager Øst and Amager
-          Vest. The number of cars over the years has increased in all districts
+          Vest. <strong>The number of cars over the years has increased in all districts</strong>
           since 2006, the most drastic changes are in the northwest part of the
           city, Vanløse and Brønshøj.
         </p>
@@ -36,8 +36,8 @@
     <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
-          The graph to the right displays the car trends for four types of cars
-          by district. The scale used is logarithmic, meaning that the graph is
+          The graph to the right displays the <strong>car trends for four types of cars
+          by district</strong>. The scale used is logarithmic, meaning that the graph is
           useful for defining trends per car type but not for comparing the
           number of cars per car type.
           <br /><br />
@@ -229,21 +229,21 @@
       </div>
       <div class="col-md-6">
         <p class="text-start p-3">
-          The plot to the left shows the average annual salaries (pre-tax) by
-          district over time. This data represents people who are eligible for
-          work. The City Centre and Østerbro are the wealthiest districts
+          The plot to the left shows <strong>the average annual salaries (pre-tax) by
+          district over time</strong>. This data represents people who are eligible for
+          work. <strong>The City Centre and Østerbro are the wealthiest districts</strong>
           whereas Nørrebro and Bispebjerg have the lowest average salary. There
           is a high contrast between some districts such as the City Centre and
-          Nørrebro
+          Nørrebro.
         </p>
       </div>
     </div>
     <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
-          The scatter plot to the right shows the average number of cars
+          The scatter plot to the right shows <strong>the average number of cars
           registered per 100.000 people by neighborhood over the years versus
-          the average annual salary. Each dot represents the number of cars per
+          the average annual salary</strong>. Each dot represents the number of cars per
           100.000 people for the average salary of those people in one year. The
           plot shows that Vanløse, Brønshøj-Husum, and Valby (Copenhagen
           suburbs) are the districts where people have registered a higher
@@ -255,9 +255,9 @@
           in the City Centre and Østerbro is lower than in the suburban areas. A
           possible cause for this can be related to the Copenhagen suburbs
           lifestyle, parking space availability, and public transport
-          infrastructure. The scatterplot also shows that there seems to be a
+          infrastructure. The scatterplot also shows that <strong>there seems to be a
           linear correlation between the average number of cars and the average
-          annual salary for most districts. Let's have a look at the Pearson
+          annual salary for most districts</strong>. Let's have a look at the Pearson
           correlation and regression lines for the same data for confirmation.
         </p>
       </div>
@@ -420,9 +420,9 @@
       </div>
       <div class="col-md-8">
         <p class="text-start p-3">
-          The scatter plots to the left show the average number of cars
+          The scatter plots to the left show the <strong>average number of cars
           registered per 100.000 people over the years versus the average annual
-          salary for every district. A linear regression line has been added
+          salary for every district</strong>. A linear regression line has been added
           together with the Pearson's Correlation Coefficient that looks for a
           linear relationship. Valby, Vesterbro, Brønshøj-Husum and Amager show
           the highest Pearsons Correlation Coefficient (near to 1) indicating a

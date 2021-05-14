@@ -12,13 +12,14 @@
           it is time to focus on electric and hybrid cars, popularly known as
           green cars.
           <br />
-          The scatter plots to the right show the total number of green cars per
-          year in Copenhagen.
+          The scatter plots to the right show
+          <strong>the total number of green cars per year in Copenhagen</strong
+          >.
           <br />
-          There is a clear exponential growth in both types of cars. The number
-          of electric cars has been growing since 2013, whereas hybrid cars are
-          growing faster since 2016. Are these trends general in Copenhagen or
-          do the numbers vary depending on districts?
+          There is a clear <strong>exponential</strong> growth in both types of
+          cars. The number of electric cars has been growing since 2013, whereas
+          hybrid cars are growing faster since 2016. Are these trends general in
+          Copenhagen or do the numbers vary depending on districts?
         </p>
       </div>
       <div class="col-md-6">
@@ -31,9 +32,11 @@
       </div>
       <div class="col-md-6">
         <p class="text-start p-3">
+          The graph to the left describes the
+          <strong>total number of green cars in one year per district</strong>.
           Earlier it was highlighted that there are more cars per person in the
-          suburbs, this is Vanløse, Brønshøj-Husum and Valby. However, there are
-          more green cars in the city center. This could well be because the
+          suburbs, this is Vanløse, Brønshøj-Husum and Valby. However, <strong>there are
+          more green cars in the city center</strong>. This could well be because the
           first electric cars were luxurious, fast, elegant and much more
           expensive than other cars and cheaper electric cars have only recently
           been introduced. Another reason could be the higher accessibility of
@@ -44,10 +47,10 @@
     <div class="row align-items-center p-3">
       <div class="col-md-6">
         <p class="text-start p-3">
-          The plot to the right shows the evolution of car ownership by district
-          in Copenhagen. The first maps show that there were almost no green
-          cars in the early years. Since 2015 we can see a gradual increase in
-          green cars in most districts, especially in the city center. The
+          The plot to the right shows <strong>the evolution of car ownership by district
+          in Copenhagen</strong>. The first maps show that there were almost no green
+          cars in the early years. Since 2015 we can see a <strong>gradual increase in
+          green cars in most districts</strong>, especially in the city center. The
           amount of green cars is certainly increasing exponentially in all
           areas which is a good sign for the future.
         </p>
