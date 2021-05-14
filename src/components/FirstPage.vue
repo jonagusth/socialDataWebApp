@@ -38,13 +38,7 @@
             class="list-group-item"
             style="background-color: rgb(235, 230, 226); !important"
           >
-            Car ownership by type and district
-          </li>
-          <li
-            class="list-group-item"
-            style="background-color: rgb(235, 230, 226); !important"
-          >
-            Car ownership by district and annual saleries
+            Car ownership by type, district and annual saleries
           </li>
           <li
             class="list-group-item"
